@@ -8,6 +8,10 @@ class 47{
 	 String str=in.nextLine();
        char[] c=str.toCharArray();
        Arrays.sort(c);
+       if((str.length()-1)%2==0)
+       {
+           System.out.println(ch);
+       }else{
        for(int i=0;i<c.length;i++)
        { for(int j=0;j<c.length;j++)
        {
@@ -18,7 +22,9 @@ class 47{
            if(count>max)
            { max=count;
                ch=c[i];
+               flag=0;
            }
+       }
        }
        }
        System.out.println(ch);
