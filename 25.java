@@ -1,6 +1,6 @@
 import java.util.*;
 
-class 15 {
+class 25 {
 	public static void main (String[] args){
 	    int max=0,sum=0,start=0,stop=0;
 		Scanner  in=new Scanner(System.in);
